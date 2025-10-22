@@ -4,12 +4,12 @@ body {
     padding: 0;
     background-color: #E7E7E7;
     font-family: 'Courier New', Courier, monospace;
-      background-image: url('./img/cupcake.svg');
-      background-repeat: repeat;
-      background-size: 150px 120px;
+    background-image: url('./img/cupcake.svg');
+    background-repeat: repeat;
+    background-size: 150px 120px;
 }
 
-img {
+.recipe img {
     width: 400px;
     height: 400px;
 }
@@ -23,7 +23,7 @@ h1 {
     margin: 0;
 }
 
-.container{
+.container {
     width: 410px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@ h1 {
     border: solid 5px black;
 }
 
-.recipe a{
+.recipe a {
     background-color: black;
     color: white;
     padding: 10px;
@@ -42,12 +42,12 @@ h1 {
 
 }
 
-.recipe img{
+.recipe img {
     display: block;
     margin: 0;
 }
 
-.recipe p{
+.recipe p {
     margin: 0;
 
 }
@@ -55,3 +55,78 @@ h1 {
 
 
 /* recipes */
+.recipe-hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#back-btn {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.sub-title {
+    background-color: burlywood;
+    margin: 0;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+
+h2 {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(161, 79, 79);
+    color: white;
+    padding: 10px;
+}
+
+.section p {
+    margin: 0;
+}
+
+
+.prep-time {
+    background-color: rgb(113, 55, 55);
+    color: white;
+    padding: 10px;
+}
+
+.cook-time {
+    background-color: rgb(86, 39, 39);
+    color: white;
+    padding: 10px;
+}
+
+.servings {
+    background-color: rgb(43, 11, 11);
+    color: white;
+    padding: 10px;
+}
+
+h3 {
+    background-color: rgba(43, 11, 11, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+ul,
+ol {
+    background-color: rgba(113, 55, 55, 0.6);
+    color: white;
+    margin: 0;
+}
+
+li {
+    padding: 10px 0;
+}
