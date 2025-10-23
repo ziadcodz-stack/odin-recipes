@@ -54,9 +54,9 @@ h1 {
 
 
 
-/* RECIPES */
+/*----------- RECIPES -----------*/
 
-/* red */
+/* deafult - red */
 
 .recipe-hero-img {
     display: block;
@@ -159,8 +159,52 @@ li {
     padding: 10px;
 }
 
-.green-list {
+.list-green {
     background-color: rgba(55, 113, 72, 0.6);
 }
 
-/* rocks and nature */
+/* nature */
+
+.content-nature {
+    background-color: #b2c057;
+    color: white;
+    padding: 10px;
+}
+
+.section-nature p {
+    margin: 0;
+}
+
+.prep-time-nature {
+    background-color: #89744f;
+    color: white;
+    padding: 10px;
+}
+
+.cook-time-nature {
+    background-color: #785733;
+    color: white;
+    padding: 10px;
+}
+
+.servings-nature {
+    background-color: #444b1d;
+    color: white;
+    padding: 10px;
+}
+
+.list-nature {
+    background-color: rgba(10, 59, 14, 0.545);
+}
+
+.h3-nature {
+    background-color: rgba(68, 75, 29, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* dark green: #444b1d */
+/* dark brown #785733 */
+/* light green: #b2c057 */
+/* light brown #89744f */
